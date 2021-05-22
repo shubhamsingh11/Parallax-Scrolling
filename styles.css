@@ -172,7 +172,13 @@ section .container > *{
 
 .content{
     color: white;
+    transform : translateY(-50px);
 }
+
+.imgContainer{
+    transform : translateY(50px);
+}
+
 
 .title{
     font-weight: 600;
