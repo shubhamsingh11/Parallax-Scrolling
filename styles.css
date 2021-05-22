@@ -190,7 +190,7 @@ section .container > *{
 
 .border{
     position: absolute;
-    width : 30%;
+    width : 0%;
     height : 3px;
     background-color: #fff;
     bottom: 0;
@@ -205,4 +205,24 @@ section .container > *{
     left: 0;
     z-index: 20;
     background : linear-gradient(to top, #151515 , transparent);
+}
+
+@media ( max-width: 850px){
+    section .container{
+        grid-template-columns: 1fr;
+    }
+
+@media ( max-width: 600px){
+    .big-title{
+        font-size: 3rem;
+    }
+
+    .text{
+        font-size: .8rem;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+}
 }
