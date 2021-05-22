@@ -1,1 +1,2 @@
 # Parallax-Scrolling
+![](Discover.gif)
